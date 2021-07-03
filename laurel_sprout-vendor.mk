@@ -7,6 +7,15 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.5.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.5.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/vendor.qti.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.camera.device@3.2.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
@@ -243,6 +252,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/firmware/sign_xiaomi/a610_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/sign_xiaomi/a610_zap.mdt \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.4-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/audio.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.trinket.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/camera.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.trinket.so \
